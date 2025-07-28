@@ -1,9 +1,36 @@
-# Challenge 1b: Multi-Collection PDF Analysis
+# 📄 Adobe Hackathon - PDF Processor
 
-## Overview
-Advanced PDF analysis solution that processes multiple document collections and extracts relevant content based on specific personas and use cases.
+This project is a high-performance, offline Python-based PDF processing tool built for the Adobe Hackathon. It extracts structured outlines (headings), infers titles, and detects the primary language of each PDF file using smart heuristics — all optimized for accuracy and memory efficiency.
 
-## Project Structure
+---
+
+## 🚀 Features
+
+- 📚 **Heading Detection:**  
+  Extracts document structure (`H1`–`H4`) based on visual features like font size, boldness, alignment, and text content.
+
+- 🏷️ **Title Inference:**  
+  Smartly identifies the document title using layout and typography cues on the first page.
+
+- 🌐 **Language Detection:**  
+  Detects the primary language of the document using `langdetect`, with confidence scoring and fallback support.
+
+- 🧹 **Noise Filtering:**  
+  Ignores repetitive, irrelevant, and decorative text elements (e.g., footers, emails, links).
+
+- 💾 **Memory Efficient:**  
+  Chunk-based processing with garbage collection ensures smooth handling of large and complex PDFs.
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. 🔧 Install Requirements
+```bash
+pip install PyMuPDF langdetect
+```
+
+### 2. 📂 Project Structure
 ```
 Challenge_1b/
 ├── Collection 1/                    # Travel Planning
@@ -19,75 +46,57 @@ Challenge_1b/
 │   ├── challenge1b_input.json      # Input configuration
 │   └── challenge1b_output.json     # Analysis results
 └── README.md
+
 ```
 
-## Collections
-
-### Collection 1: Travel Planning
-- **Challenge ID**: round_1b_002
-- **Persona**: Travel Planner
-- **Task**: Plan a 4-day trip for 10 college friends to South of France
-- **Documents**: 7 travel guides
-
-### Collection 2: Adobe Acrobat Learning
-- **Challenge ID**: round_1b_003
-- **Persona**: HR Professional
-- **Task**: Create and manage fillable forms for onboarding and compliance
-- **Documents**: 15 Acrobat guides
-
-### Collection 3: Recipe Collection
-- **Challenge ID**: round_1b_001
-- **Persona**: Food Contractor
-- **Task**: Prepare vegetarian buffet-style dinner menu for corporate gathering
-- **Documents**: 9 cooking guides
-
-## Input/Output Format
-
-### Input JSON Structure
-```json
-{
-  "challenge_info": {
-    "challenge_id": "round_1b_XXX",
-    "test_case_name": "specific_test_case"
-  },
-  "documents": [{"filename": "doc.pdf", "title": "Title"}],
-  "persona": {"role": "User Persona"},
-  "job_to_be_done": {"task": "Use case description"}
-}
+### 3. ▶️ Run the Script
+```bash
+python process_collection.py
 ```
 
-### Output JSON Structure
+Each processed PDF will generate a `.json` file in the `output/` folder with the following format:
+
 ```json
 {
-  "metadata": {
-    "input_documents": ["list"],
-    "persona": "User Persona",
-    "job_to_be_done": "Task description"
-  },
-  "extracted_sections": [
-    {
-      "document": "source.pdf",
-      "section_title": "Title",
-      "importance_rank": 1,
-      "page_number": 1
-    }
+  "title": "Sample Document Title",
+  "outline": [
+    { "level": "H1", "text": "Introduction", "page": 1 },
+    { "level": "H2", "text": "Methodology", "page": 3 }
   ],
-  "subsection_analysis": [
-    {
-      "document": "source.pdf",
-      "refined_text": "Content",
-      "page_number": 1
-    }
-  ]
+  "language": {
+    "primary_language": "en",
+    "language_name": "English",
+    "confidence": 0.987,
+    "detected_languages": [...]
+  }
 }
 ```
-
-## Key Features
-- Persona-based content analysis
-- Importance ranking of extracted sections
-- Multi-collection document processing
-- Structured JSON output with metadata
 
 ---
 
-**Note**: This README provides a brief overview of the Challenge 1b solution structure based on available sample data. 
+## 🧪 Example Use Cases
+
+- Creating document previews or summaries
+- Auto-generating Table of Contents
+- Language-based filtering or indexing
+- Preprocessing PDFs for AI/ML tasks
+
+---
+
+## ⚠️ Known Limitations
+
+- Works best with machine-generated PDFs (not scanned images)
+- Detection may be limited in extremely short or mixed-language docs
+- It doesn't extract paragraph-level body content — only structure
+
+---
+
+## 📄 License
+
+MIT License © 2025 Samyukta Gade, Sreeja Bommagani
+
+---
+
+## 🙌 Acknowledgements
+
+Built with ❤️ for the Adobe Hackathon Round 1B.
