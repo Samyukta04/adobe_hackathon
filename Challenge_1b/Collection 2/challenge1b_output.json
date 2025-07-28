@@ -1,0 +1,83 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Learn Acrobat - Create and Convert_1.pdf",
+            "Learn Acrobat - Create and Convert_2.pdf",
+            "Learn Acrobat - Edit_1.pdf",
+            "Learn Acrobat - Edit_2.pdf",
+            "Learn Acrobat - Export_1.pdf",
+            "Learn Acrobat - Export_2.pdf",
+            "Learn Acrobat - Fill and Sign.pdf",
+            "Learn Acrobat - Generative AI_1.pdf",
+            "Learn Acrobat - Generative AI_2.pdf",
+            "Learn Acrobat - Request e-signatures_1.pdf",
+            "Learn Acrobat - Request e-signatures_2.pdf",
+            "Learn Acrobat - Share_1.pdf",
+            "Learn Acrobat - Share_2.pdf",
+            "Test Your Acrobat Exporting Skills.pdf",
+            "The Ultimate PDF Sharing Checklist.pdf"
+        ],
+        "persona": "HR professional",
+        "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+        "processing_timestamp": "2025-07-24T22:30:31.459702"
+    },
+    "extracted_sections": [
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Prepare the Agreement and Add Fields:",
+            "importance_rank": 1,
+            "page_number": 14
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Types of PDF forms",
+            "importance_rank": 2,
+            "page_number": 2
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Fill and Sign PDF Forms",
+            "importance_rank": 3,
+            "page_number": 1
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Change flat forms to fillable (Acrobat Pro)",
+            "importance_rank": 4,
+            "page_number": 12
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Page Content",
+            "importance_rank": 5,
+            "page_number": 10
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "9. Prepare the Agreement and Add Fields: You can now add any necessary fields to the agreement. Remember that a Signature field must be placed for each signer (including internal counter-singers). There are two methods to apply fields: 1.",
+            "page_number": 14
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "Types of PDF forms • Interactive forms : These contain fields that you can select and fill in. • Flat forms : These do not have interactive fields.",
+            "page_number": 2
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "Fill and Sign PDF Forms You can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types of PDF forms",
+            "page_number": 1
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "Change flat forms to fillable (Acrobat Pro) You can change a flat form to a fillable form by either using the Prepare Form tool or enabling the Fill & Sign tools. Acrobat and Acrobat Reader users can use the Fill & Sign tool to fill in flat forms. Interactive form To create an interactive form, use the Prepare Forms tool.",
+            "page_number": 12
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "Once a file is selected, the configuration page loads. 3. Add participants : 1. List the participants required.",
+            "page_number": 10
+        }
+    ]
+}

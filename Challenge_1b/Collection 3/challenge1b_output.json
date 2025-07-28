@@ -1,0 +1,77 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-24T22:30:39.417967"
+    },
+    "extracted_sections": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Page Content",
+            "importance_rank": 1,
+            "page_number": 16
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Page Content",
+            "importance_rank": 2,
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Page Content",
+            "importance_rank": 3,
+            "page_number": 14
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "Page Content",
+            "importance_rank": 4,
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "section_title": "Page Content",
+            "importance_rank": 5,
+            "page_number": 9
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "• Serve immediately. Cottage Cheese and Veggie Bowl Ingredients: • 1 cup cottage cheese • 1/4 cup diced cucumber • 1/4 cup cherry tomatoes, halved • 1/4 cup diced bell pepper • Salt and pepper to taste Instructions: • In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. •",
+            "page_number": 16
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": " Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings Instructions:  In a skillet, cook ground beef over medium heat until browned. ",
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": " 1 pound ground beef  1/2 pound ground pork  1 small onion, diced  2 cloves garlic, minced  1/2 cup breadcrumbs  1/4 cup milk  1 egg, beaten  1/4 cup ketchup  1 tablespoon Worcestershire sauce  1 teaspoon salt  1/2 teaspoon pepper Instructions:  Preheat oven to 350°F (175°C). ",
+            "page_number": 14
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "• 1/4 cup spinach, chopped • 1/4 cup shredded carrots • 1 tablespoon tahini • 1 tablespoon lemon juice • Salt and pepper to taste Instructions: • In a bowl, combine the mashed chickpeas, spinach, carrots, tahini, and lemon juice. • Season with salt and pepper.",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "refined_text": " 1 bell pepper, diced  1 cup spinach, chopped  1 jar (24 ounces) marinara sauce  1 can (15 ounces) ricotta cheese  1 egg  1 cup shredded mozzarella cheese  1/4 cup grated Parmesan cheese  2 tablespoons olive oil  Salt and pepper to taste Instructions:  Preheat oven to 375°F (190°C). ",
+            "page_number": 9
+        }
+    ]
+}
