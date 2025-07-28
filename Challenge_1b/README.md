@@ -32,10 +32,21 @@ pip install PyMuPDF langdetect
 
 ### 2. 📂 Project Structure
 ```
-/app
-├── input/     # Place your PDF files here
-├── output/    # JSON output files will be generated here
-├── process_collection.py
+Challenge_1b/
+├── Collection 1/                    # Travel Planning
+│   ├── PDFs/                       # South of France guides
+│   ├── challenge1b_input.json      # Input configuration
+│   └── challenge1b_output.json     # Analysis results
+├── Collection 2/                    # Adobe Acrobat Learning
+│   ├── PDFs/                       # Acrobat tutorials
+│   ├── challenge1b_input.json      # Input configuration
+│   └── challenge1b_output.json     # Analysis results
+├── Collection 3/                    # Recipe Collection
+│   ├── PDFs/                       # Cooking guides
+│   ├── challenge1b_input.json      # Input configuration
+│   └── challenge1b_output.json     # Analysis results
+└── README.md
+
 ```
 
 ### 3. ▶️ Run the Script
