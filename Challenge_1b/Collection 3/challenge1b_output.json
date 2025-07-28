@@ -13,65 +13,65 @@
         ],
         "persona": "Food Contractor",
         "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
-        "processing_timestamp": "2025-07-24T22:30:39.417967"
+        "processing_timestamp": "2025-07-28T16:27:52.684654"
     },
     "extracted_sections": [
         {
-            "document": "Breakfast Ideas.pdf",
-            "section_title": "Page Content",
-            "importance_rank": 1,
-            "page_number": 16
-        },
-        {
-            "document": "Dinner Ideas - Mains_1.pdf",
-            "section_title": "Page Content",
-            "importance_rank": 2,
-            "page_number": 5
-        },
-        {
-            "document": "Dinner Ideas - Mains_1.pdf",
-            "section_title": "Page Content",
-            "importance_rank": 3,
-            "page_number": 14
-        },
-        {
             "document": "Lunch Ideas.pdf",
-            "section_title": "Page Content",
-            "importance_rank": 4,
-            "page_number": 14
+            "section_title": "Turkey and Avocado Sandwich",
+            "importance_rank": 1,
+            "page_number": 2
         },
         {
-            "document": "Dinner Ideas - Mains_3.pdf",
-            "section_title": "Page Content",
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "Pajeon (Pancakes)",
+            "importance_rank": 2,
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Egg noodles or rice for serving",
+            "importance_rank": 3,
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "Salt and pepper to taste",
+            "importance_rank": 4,
+            "page_number": 1
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Salt and pepper to taste",
             "importance_rank": 5,
-            "page_number": 9
+            "page_number": 2
         }
     ],
     "subsection_analysis": [
         {
-            "document": "Breakfast Ideas.pdf",
-            "refined_text": "• Serve immediately. Cottage Cheese and Veggie Bowl Ingredients: • 1 cup cottage cheese • 1/4 cup diced cucumber • 1/4 cup cherry tomatoes, halved • 1/4 cup diced bell pepper • Salt and pepper to taste Instructions: • In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. •",
-            "page_number": 16
-        },
-        {
-            "document": "Dinner Ideas - Mains_1.pdf",
-            "refined_text": " Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings Instructions:  In a skillet, cook ground beef over medium heat until browned. ",
-            "page_number": 5
-        },
-        {
-            "document": "Dinner Ideas - Mains_1.pdf",
-            "refined_text": " 1 pound ground beef  1/2 pound ground pork  1 small onion, diced  2 cloves garlic, minced  1/2 cup breadcrumbs  1/4 cup milk  1 egg, beaten  1/4 cup ketchup  1 tablespoon Worcestershire sauce  1 teaspoon salt  1/2 teaspoon pepper Instructions:  Preheat oven to 350°F (175°C). ",
-            "page_number": 14
-        },
-        {
             "document": "Lunch Ideas.pdf",
-            "refined_text": "• 1/4 cup spinach, chopped • 1/4 cup shredded carrots • 1 tablespoon tahini • 1 tablespoon lemon juice • Salt and pepper to taste Instructions: • In a bowl, combine the mashed chickpeas, spinach, carrots, tahini, and lemon juice. • Season with salt and pepper.",
-            "page_number": 14
+            "refined_text": "• 1 whole wheat tortilla • 1 cup cooked chicken breast, sliced • 1 cup romaine lettuce, chopped • 2 tablespoons Caesar dressing • 2 tablespoons grated Parmesan cheese • Optional: croutons for extra crunch • Lay the tortilla flat and spread the Caesar dressing evenly. Add the chicken, lettuce, and Parmesan cheese. Roll up the tortilla tightly and slice in half.",
+            "page_number": 2
         },
         {
-            "document": "Dinner Ideas - Mains_3.pdf",
-            "refined_text": " 1 bell pepper, diced  1 cup spinach, chopped  1 jar (24 ounces) marinara sauce  1 can (15 ounces) ricotta cheese  1 egg  1 cup shredded mozzarella cheese  1/4 cup grated Parmesan cheese  2 tablespoons olive oil  Salt and pepper to taste Instructions:  Preheat oven to 375°F (190°C). ",
-            "page_number": 9
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o Scramble eggs in the same pan. Add noodles, fish sauce, tamarind paste, sugar, and lime juice, stir to combine. Add bean sprouts, cooked shrimp, and chopped green onions. o Garnish with crushed peanuts and serve.  o 1 cup flour o 1 cup water o 1 egg o 1/2 cup green onions o 1/2 cup seafood (optional) o 1 tablespoon soy sauce o 1 tablespoon sesame oil  o Mix flour, water, and beaten egg in a bowl.",
+            "page_number": 1
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": " 1 pound beef sirloin, thinly sliced  1 small onion, diced  2 cloves garlic, minced  1 cup mushrooms, sliced  1 cup beef broth  1 cup sour cream  2 tablespoons flour  2 tablespoons butter  1 teaspoon paprika In a large skillet, melt butter over medium heat. Add diced onion and minced garlic, sauté until translucent.  Add sliced beef and cook until browned.  Stir in mushrooms and cook until tender.",
+            "page_number": 2
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": " 1 teaspoon thyme  1 teaspoon rosemary  1/4 cup olive oil   Preheat oven to 375°F (190°C). In a large baking dish, layer diced eggplant, zucchini, bell pepper, onion, and tomatoes. In a bowl, mix minced garlic, olive oil, thyme, rosemary, salt, and pepper. Pour the mixture over the vegetables and toss to coat.",
+            "page_number": 1
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "• 1 cup all-purpose flour • 2 tablespoons sugar • 1 teaspoon baking powder • 1/2 teaspoon baking soda • 1/4 teaspoon salt • 1 cup buttermilk • 1 large egg • 2 tablespoons melted butter • 1 teaspoon vanilla extract • In a bowl, whisk together flour, sugar, baking powder, baking soda, and salt. In another bowl, combine buttermilk, egg, melted butter, and vanilla extract. Pour the wet ingredients into the dry ingredients and stir until just combined.",
+            "page_number": 2
         }
     ]
 }

@@ -19,65 +19,65 @@
         ],
         "persona": "HR professional",
         "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
-        "processing_timestamp": "2025-07-24T22:30:31.459702"
+        "processing_timestamp": "2025-07-28T16:26:31.571731"
     },
     "extracted_sections": [
         {
-            "document": "Learn Acrobat - Request e-signatures_1.pdf",
-            "section_title": "Prepare the Agreement and Add Fields:",
-            "importance_rank": 1,
-            "page_number": 14
-        },
-        {
             "document": "Learn Acrobat - Fill and Sign.pdf",
-            "section_title": "Types of PDF forms",
-            "importance_rank": 2,
+            "section_title": "Flat forms : These do not have interactive fields. It could be a paper form or PDF that",
+            "importance_rank": 1,
             "page_number": 2
         },
         {
-            "document": "Learn Acrobat - Fill and Sign.pdf",
-            "section_title": "Fill and Sign PDF Forms",
-            "importance_rank": 3,
+            "document": "Learn Acrobat - Request e-signatures_2.pdf",
+            "section_title": "Adobe LiveCycleRights Management (ALCRM) servers let you define centralized policies to",
+            "importance_rank": 2,
             "page_number": 1
         },
         {
-            "document": "Learn Acrobat - Fill and Sign.pdf",
-            "section_title": "Change flat forms to fillable (Acrobat Pro)",
-            "importance_rank": 4,
-            "page_number": 12
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "tools > Request E-signatures . Alternatively, you can select Sign from the top toolbar.",
+            "importance_rank": 3,
+            "page_number": 2
         },
         {
-            "document": "Learn Acrobat - Request e-signatures_1.pdf",
-            "section_title": "Page Content",
+            "document": "The Ultimate PDF Sharing Checklist.pdf",
+            "section_title": "information, this checklist will ensure you cover all the bases. Let's dive",
+            "importance_rank": 4,
+            "page_number": 1
+        },
+        {
+            "document": "Learn Acrobat - Export_1.pdf",
+            "section_title": "Adobe Acrobat Reader users can save a copy of a PDF or PDF Portfolio if the creator of the",
             "importance_rank": 5,
-            "page_number": 10
+            "page_number": 2
         }
     ],
     "subsection_analysis": [
         {
-            "document": "Learn Acrobat - Request e-signatures_1.pdf",
-            "refined_text": "9. Prepare the Agreement and Add Fields: You can now add any necessary fields to the agreement. Remember that a Signature field must be placed for each signer (including internal counter-singers). There are two methods to apply fields: 1.",
-            "page_number": 14
-        },
-        {
             "document": "Learn Acrobat - Fill and Sign.pdf",
-            "refined_text": "Types of PDF forms • Interactive forms : These contain fields that you can select and fill in. • Flat forms : These do not have interactive fields.",
+            "refined_text": "• • hasn’t been optimized for form filling. The Fill & Sign tool automatically detects the form fields like text fields, comb fields, checkboxes, and radio buttons. You can manually add text and other symbols anywhere on the form using the Fill & Sign tool if required. You can complete the forms by entering information and adding your signatures. Acrobat also allows you to send your completed forms to others and securely save them in Adobe cloud storage.",
             "page_number": 2
         },
         {
-            "document": "Learn Acrobat - Fill and Sign.pdf",
-            "refined_text": "Fill and Sign PDF Forms You can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types of PDF forms",
+            "document": "Learn Acrobat - Request e-signatures_2.pdf",
+            "refined_text": "control access to documents. The policies are stored on the ALCRM server. You require server access to use them. ALCRM servers embed user access information in documents. Therefore, specify document recipients in ALCRM policies.",
             "page_number": 1
         },
         {
-            "document": "Learn Acrobat - Fill and Sign.pdf",
-            "refined_text": "Change flat forms to fillable (Acrobat Pro) You can change a flat form to a fillable form by either using the Prepare Form tool or enabling the Fill & Sign tools. Acrobat and Acrobat Reader users can use the Fill & Sign tool to fill in flat forms. Interactive form To create an interactive form, use the Prepare Forms tool.",
-            "page_number": 12
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "1. Open the PDF form in Acrobat or Acrobat Reader, and then choose All 2. The Request Signatures window is displayed. It displays the fields progressively as you enter the details. The left pane provides information on getting signatures from others workflow. In the recipients field, add recipient email addresses in the order you want the document to be signed.",
+            "page_number": 2
         },
         {
-            "document": "Learn Acrobat - Request e-signatures_1.pdf",
-            "refined_text": "Once a file is selected, the configuration page loads. 3. Add participants : 1. List the participants required.",
-            "page_number": 10
+            "document": "The Ultimate PDF Sharing Checklist.pdf",
+            "refined_text": "• Open Your PDF • Have you launched Acrobat or Acrobat Reader and opened • Choose Your Sharing Method • Are you sharing via email, link, or a third-party app like • Set Permissions • Have you decided if recipients can comment or just view the • Add Recipients • Did you enter the email addresses of everyone who needs • Customize Your Message • Have you added a personal touch to the subject and message • Create and Share the Link • Did you generate a shareable link and copy it for distribution?",
+            "page_number": 1
+        },
+        {
+            "document": "Learn Acrobat - Export_1.pdf",
+            "refined_text": "You can save your changes to an Adobe PDF or PDF Portfolio in the original PDF or in a copy of the PDF. You can also save individual PDFs to other file formats, including text, XML, HTML, and Microsoft Word . Saving a PDF in text format allows you to use the content with a screen reader, screen magnifier, or other assistive technology. If you don’t have access to the source files that created an Adobe PDF , you can still copy images and text from the PDF to use elsewhere.",
+            "page_number": 2
         }
     ]
 }
