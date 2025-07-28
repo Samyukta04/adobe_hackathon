@@ -1,36 +1,36 @@
-# 📄 PDF Language Extractor – Adobe Hackathon Round 1B
+# PDF Language Extractor – Adobe Hackathon Round 1B
 
 This tool processes a collection of PDFs and identifies the most relevant content based on a user **persona** and **job-to-be-done**. It uses **local language models** (via Ollama) and intelligent fallback strategies when models are unavailable.
 
 ---
 
-## 🧠 What the Code Does
+## What the Code Does
 
 This project consists of several key stages:
 
-### 1. 📥 Input Parsing
+### 1. Input Parsing
 - Reads the `challenge1b_input.json` file.
 - Extracts the **persona** and **job-to-be-done** fields and combines them to form a **query**.
 
-### 2. 📄 PDF Processing
+### 2. PDF Processing
 - Opens each PDF file in the `PDFs/` directory using `PyMuPDF (fitz)`.
 - For each page, extracts:
   - **Headings** (based on font size, formatting, etc.)
   - **Content** (full paragraph text below or around headings)
 
-### 3. 🧬 Embedding Text
+### 3. Embedding Text
 - Attempts to use **Ollama** models to embed each section.
 - If models are unavailable, it uses a **custom fallback embedding function** based on word frequencies, keywords, punctuation, and structure.
 
-### 4. 🎯 Section Ranking
+### 4. Section Ranking
 - All section embeddings are compared with the query embedding using cosine similarity.
 - A **diversity penalty** is applied to avoid ranking too many sections from the same document.
 - Top `N` relevant sections are selected.
 
-### 5. 📝 Summarization
+### 5. Summarization
 - Uses **spaCy** to break down selected sections into readable summaries (first few important sentences).
 
-### 6. 📤 Output Generation
+### 6. Output Generation
 - Writes results to a `challenge1b_output.json` file.
 - Output contains:
   - Metadata
@@ -39,7 +39,7 @@ This project consists of several key stages:
 
 ---
 
-## ✅ Features
+## Features
 
 - PDF text extraction with heading recognition
 - Embedding using multiple local models via Ollama
@@ -50,7 +50,7 @@ This project consists of several key stages:
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 | Library     | Purpose                              |
 |-------------|--------------------------------------|
@@ -62,7 +62,7 @@ This project consists of several key stages:
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 Each collection folder should look like this:
 
@@ -92,7 +92,7 @@ CollectionName/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Step 1: Install Dependencies
 
@@ -129,7 +129,7 @@ The system tries these models in order:
 
 ---
 
-## 🧪 Sample Output
+## Sample Output
 
 Here’s a sample from the `challenge1b_output.json`:
 
@@ -213,7 +213,7 @@ Here’s a sample from the `challenge1b_output.json`:
 
 ---
 
-## 📌 Notes
+## Notes
 
 * Embedding fallback is robust and keyword-aware.
 * Only the top 5 most relevant sections are returned.
@@ -222,7 +222,7 @@ Here’s a sample from the `challenge1b_output.json`:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Samyukta Gade**
 **Sreeja Bommagani**
